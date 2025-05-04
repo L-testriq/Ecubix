@@ -25,6 +25,11 @@ public class Test_CustomerToBusinessGeoMapping extends DriverManagementCore {
 		masterDataPage = welcomePage.goToMasterDataManagement();
 		masterDataPage.goToC2BMasterPage();
 	}
+
+	@Test
+	public void test() throws Exception {
+		System.out.println(Thread.currentThread().threadId());
+	}
 	
 	
 	@AfterClass
