@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Master Suite">
+	<listeners>
+		<listener class-name="co.ecubix.utils.listener.TestNGListeners" />
+	</listeners>
 	<suite-files>
 		<suite-file path="./Sanity.xml"/>
 		<suite-file path="./Regression.xml"/>

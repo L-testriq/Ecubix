@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-04T14:30:11 IST" name="Sanity Suite" finished-at="2025-05-04T14:30:31 IST" duration-ms="19678">
+  <suite started-at="2025-05-04T17:10:03 IST" name="Sanity Suite" finished-at="2025-05-04T17:10:17 IST" duration-ms="13886">
     <groups>
     </groups>
-    <test started-at="2025-05-04T14:30:11 IST" name="Test" finished-at="2025-05-04T14:30:31 IST" duration-ms="19678">
+    <test started-at="2025-05-04T17:10:03 IST" name="Test" finished-at="2025-05-04T17:10:17 IST" duration-ms="13886">
       <class name="project_ecubix.Test_CustomerToBusinessGeoMapping">
-        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@f5958c9]" started-at="2025-05-04T14:30:11 IST" name="loadPropertyFile" finished-at="2025-05-04T14:30:18 IST" duration-ms="6793" status="PASS">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@6c6cb480]" started-at="2025-05-04T17:10:03 IST" name="loadPropertyFile" finished-at="2025-05-04T17:10:08 IST" duration-ms="4590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPropertyFile -->
-        <test-method signature="test_CustormerCreationAndUserCreation()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@f5958c9]" started-at="2025-05-04T14:30:18 IST" name="test_CustormerCreationAndUserCreation" finished-at="2025-05-04T14:30:31 IST" duration-ms="12802" status="PASS">
+        <test-method signature="test()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@6c6cb480]" started-at="2025-05-04T17:10:08 IST" name="test" finished-at="2025-05-04T17:10:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test_CustormerCreationAndUserCreation()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@6c6cb480]" started-at="2025-05-04T17:10:08 IST" name="test_CustormerCreationAndUserCreation" finished-at="2025-05-04T17:10:17 IST" duration-ms="9208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CustormerCreationAndUserCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@f5958c9]" started-at="2025-05-04T14:30:31 IST" name="tearDown" finished-at="2025-05-04T14:30:31 IST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@6c6cb480]" started-at="2025-05-04T17:10:17 IST" name="tearDown" finished-at="2025-05-04T17:10:17 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- project_ecubix.Test_CustomerToBusinessGeoMapping -->
     </test> <!-- Test -->
   </suite> <!-- Sanity Suite -->
-  <suite started-at="2025-05-04T14:30:48 IST" name="Master Suite" finished-at="2025-05-04T14:30:48 IST" duration-ms="0">
+  <suite started-at="2025-05-04T17:10:39 IST" name="Master Suite" finished-at="2025-05-04T17:10:39 IST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- Master Suite -->
-  <suite started-at="2025-05-04T14:30:11 IST" name="Regression Suite" finished-at="2025-05-04T14:30:37 IST" duration-ms="26175">
+  <suite started-at="2025-05-04T17:10:03 IST" name="Regression Suite" finished-at="2025-05-04T17:10:27 IST" duration-ms="23481">
     <groups>
     </groups>
-    <test started-at="2025-05-04T14:30:11 IST" name="Test" finished-at="2025-05-04T14:30:37 IST" duration-ms="26175">
+    <test started-at="2025-05-04T17:10:03 IST" name="Test" finished-at="2025-05-04T17:10:27 IST" duration-ms="23481">
       <class name="project_ecubix.Test_CustormerCreationAndUserCreation">
-        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@247bddad]" started-at="2025-05-04T14:30:11 IST" name="loadPropertyFile" finished-at="2025-05-04T14:30:20 IST" duration-ms="8937" status="PASS">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@4b2bac3f]" started-at="2025-05-04T17:10:03 IST" name="loadPropertyFile" finished-at="2025-05-04T17:10:08 IST" duration-ms="4983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPropertyFile -->
-        <test-method signature="test_CustormerCreationAndUserCreation()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@247bddad]" started-at="2025-05-04T14:30:20 IST" name="test_CustormerCreationAndUserCreation" finished-at="2025-05-04T14:30:37 IST" duration-ms="17166" status="PASS">
+        <test-method signature="test_CustormerCreationAndUserCreation()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@4b2bac3f]" started-at="2025-05-04T17:10:08 IST" name="test_CustormerCreationAndUserCreation" finished-at="2025-05-04T17:10:26 IST" duration-ms="18431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_CustormerCreationAndUserCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@247bddad]" started-at="2025-05-04T14:30:37 IST" name="tearDown" finished-at="2025-05-04T14:30:37 IST" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@4b2bac3f]" started-at="2025-05-04T17:10:26 IST" name="tearDown" finished-at="2025-05-04T17:10:27 IST" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- project_ecubix.Test_CustormerCreationAndUserCreation -->
     </test> <!-- Test -->
   </suite> <!-- Regression Suite -->
-  <suite started-at="2025-05-04T14:30:11 IST" name="Functional Suite" finished-at="2025-05-04T14:30:43 IST" duration-ms="32163">
+  <suite started-at="2025-05-04T17:10:03 IST" name="Functional Suite" finished-at="2025-05-04T17:10:34 IST" duration-ms="30878">
     <groups>
     </groups>
-    <test started-at="2025-05-04T14:30:11 IST" name="Test" finished-at="2025-05-04T14:30:43 IST" duration-ms="32163">
+    <test started-at="2025-05-04T17:10:03 IST" name="Test" finished-at="2025-05-04T17:10:34 IST" duration-ms="30878">
       <class name="project_ecubix.Test_ArticleCreation">
-        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_ArticleCreation@41a2befb]" started-at="2025-05-04T14:30:11 IST" name="loadPropertyFile" finished-at="2025-05-04T14:30:19 IST" duration-ms="8413" status="PASS">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_ArticleCreation@2cd76f31]" started-at="2025-05-04T17:10:03 IST" name="loadPropertyFile" finished-at="2025-05-04T17:10:08 IST" duration-ms="5013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPropertyFile -->
-        <test-method signature="test_ArticleCreation()[pri:0, instance:project_ecubix.Test_ArticleCreation@41a2befb]" started-at="2025-05-04T14:30:19 IST" name="test_ArticleCreation" finished-at="2025-05-04T14:30:43 IST" duration-ms="23673" status="PASS">
+        <test-method signature="test_ArticleCreation()[pri:0, instance:project_ecubix.Test_ArticleCreation@2cd76f31]" started-at="2025-05-04T17:10:08 IST" name="test_ArticleCreation" finished-at="2025-05-04T17:10:34 IST" duration-ms="25791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ArticleCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_ArticleCreation@41a2befb]" started-at="2025-05-04T14:30:43 IST" name="tearDown" finished-at="2025-05-04T14:30:43 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_ArticleCreation@2cd76f31]" started-at="2025-05-04T17:10:34 IST" name="tearDown" finished-at="2025-05-04T17:10:34 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
