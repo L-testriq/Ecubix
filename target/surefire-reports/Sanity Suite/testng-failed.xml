@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Suite]" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="project_ecubix.Test_CustomerToBusinessGeoMapping">
+        <methods>
+          <include name="test1"/>
+          <include name="tearDown"/>
+          <include name="test_CustormerCreationAndUserCreation"/>
+          <include name="loadPropertyFile"/>
+        </methods>
+      </class> <!-- project_ecubix.Test_CustomerToBusinessGeoMapping -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->

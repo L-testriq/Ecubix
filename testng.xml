@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="Suite">
+	<listeners>
+		<listener class-name="co.ecubix.utils.listener.TestNGListeners" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="project_ecubix.Test_ArticleCreation" />
+			<class name="project_ecubix.Test_CustomerToBusinessGeoMapping" />
+			
+			 <class name="project_ecubix.Test_CustormerCreationAndUserCreation" />
+			<!--<class name="project_ecubix.Test_CheckBusinessGeoCreation" /> 
+			<class name="project_ecubix.Test_RegularSchemeEditFunctionality" /> -->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-04T14:20:49 IST" name="Suite" finished-at="2025-05-04T14:22:38 IST" duration-ms="109746">
+    <groups>
+    </groups>
+    <test started-at="2025-05-04T14:20:49 IST" name="Test" finished-at="2025-05-04T14:22:38 IST" duration-ms="109746">
+      <class name="project_ecubix.Test_CustomerToBusinessGeoMapping">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@260e86a1]" started-at="2025-05-04T14:20:49 IST" name="loadPropertyFile" finished-at="2025-05-04T14:21:16 IST" duration-ms="27494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertyFile -->
+        <test-method signature="test_CustormerCreationAndUserCreation()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@260e86a1]" started-at="2025-05-04T14:21:16 IST" name="test_CustormerCreationAndUserCreation" finished-at="2025-05-04T14:21:43 IST" duration-ms="26846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustormerCreationAndUserCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_CustomerToBusinessGeoMapping@260e86a1]" started-at="2025-05-04T14:21:43 IST" name="tearDown" finished-at="2025-05-04T14:21:43 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project_ecubix.Test_CustomerToBusinessGeoMapping -->
+      <class name="project_ecubix.Test_CustormerCreationAndUserCreation">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@19648c40]" started-at="2025-05-04T14:20:49 IST" name="loadPropertyFile" finished-at="2025-05-04T14:21:14 IST" duration-ms="25651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertyFile -->
+        <test-method signature="test_CustormerCreationAndUserCreation()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@19648c40]" started-at="2025-05-04T14:21:14 IST" name="test_CustormerCreationAndUserCreation" finished-at="2025-05-04T14:22:25 IST" duration-ms="70524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustormerCreationAndUserCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_CustormerCreationAndUserCreation@19648c40]" started-at="2025-05-04T14:22:25 IST" name="tearDown" finished-at="2025-05-04T14:22:25 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project_ecubix.Test_CustormerCreationAndUserCreation -->
+      <class name="project_ecubix.Test_ArticleCreation">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:project_ecubix.Test_ArticleCreation@1d131e1b]" started-at="2025-05-04T14:20:49 IST" name="loadPropertyFile" finished-at="2025-05-04T14:21:14 IST" duration-ms="25597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertyFile -->
+        <test-method signature="test_ArticleCreation()[pri:0, instance:project_ecubix.Test_ArticleCreation@1d131e1b]" started-at="2025-05-04T14:21:14 IST" name="test_ArticleCreation" finished-at="2025-05-04T14:22:38 IST" duration-ms="83918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ArticleCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project_ecubix.Test_ArticleCreation@1d131e1b]" started-at="2025-05-04T14:22:38 IST" name="tearDown" finished-at="2025-05-04T14:22:38 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project_ecubix.Test_ArticleCreation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

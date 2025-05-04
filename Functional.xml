@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="Functional Suite">
+	<test name="Test">
+		<classes>
+			<class name="project_ecubix.Test_ArticleCreation" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

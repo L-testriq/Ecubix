@@ -1,0 +1,347 @@
+{
+	"web": {
+		"login_page": {
+			"username_field": {
+				"type": "id",
+				"value": "login_value"
+			},
+			"password_field": {
+				"type": "id",
+				"value": "txtpwd"
+			},
+			"signIn_button": {
+				"type": "xpath",
+				"value": "//button[@type='submit']"
+			}
+		},
+		"welcome_page": {
+			"master_DM": {
+				"type": "xpath",
+				"value": "//div[text()='Master Data Management']/ancestor::li"
+			},
+			"reports": {
+				"type": "xpath",
+				"value": "//div[text()='Reports']/ancestor::li"
+			},
+			"master_DM_title": {
+				"type": "xpath",
+				"value": "//div[@class='content_box']//h1"
+			}
+		},
+		"master_data": {
+			"master_subOptions": {
+				"type": "xpath",
+				"value": "//ul[@id='lsmnu']/li[2]/ul/li/a"
+			},
+			"side_menu": {
+				"type": "xpath",
+				"value": "//ul[@id='lsmnu']/li[@ng-repeat='item in MenuList']/a"
+			},
+			"scheme_subOption": {
+				"type": "xpath",
+				"value": "//ul[@id='lsmnu']/li[3]/ul/li/a"
+			}
+		},
+		"customer_master": {
+			"entry_tab": {
+				"type": "xpath",
+				"value": "//a[text()='Entry']"
+			},
+			"view_tab": {
+				"type": "xpath",
+				"value": "//a[text()='View']"
+			},
+			"customer_type": {
+				"type": "id",
+				"value": "ddlCustomerTypeEntry"
+			},
+			"state": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mRegionGlCode']"
+			},
+			"city": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mCityGlCode']"
+			},
+			"customer_code": {
+				"type": "id",
+				"value": "txtcustcode"
+			},
+			"customer_name": {
+				"type": "id",
+				"value": "txtcustName"
+			},
+			"customer_number": {
+				"type": "xpath",
+				"value": "//input[@ng-model='mMobileno']"
+			},
+			"customer_address": {
+				"type": "id",
+				"value": "txtaddress"
+			},
+			"customer_pincode": {
+				"type": "xpath",
+				"value": "//input[@ng-model='mPincode']"
+			},
+			"save_button": {
+				"type": "xpath",
+				"value": "//input[@value='Save & Next']"
+			},
+			"Data_Saved_successfully": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']"
+			},
+			"successMessage": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']/p"
+			},
+			"success_OK": {
+				"type": "xpath",
+				"value": "//button[@class='confirm']"
+			},
+			"add_user": {
+				"type": "xpath",
+				"value": "//input[@value='Add User']"
+			},
+			"user_id": {
+				"type": "id",
+				"value": "txtUserid"
+			},
+			"user_firstname": {
+				"type": "xpath",
+				"value": "//input[@ng-model='mFirstName']"
+			},
+			"user_password": {
+				"type": "id",
+				"value": "user_password"
+			},
+			"user_cnfpassword": {
+				"type": "id",
+				"value": "confirm_password"
+			},
+			"user_mobile": {
+				"type": "xpath",
+				"value": "//input[@ng-model='mMobilenoU']"
+			},
+			"user_save": {
+				"type": "xpath",
+				"value": "//input[@value='Save']"
+			},
+			"view_cType": {
+				"type": "xpath",
+				"value": "//button[@ng-class='settings.buttonClasses']"
+			},
+			"view_cType_search": {
+				"type": "xpath",
+				"value": "//input[@placeholder='Search...']"
+			},
+			"view_cType_select": {
+				"type": "xpath",
+				"value": "//a[@class='option']"
+			},
+			"execute_btn": {
+				"type": "id",
+				"value": "btnExecute"
+			},
+			"find_custcode": {
+				"type": "id",
+				"value": "VAR_CUSTOMER_CODE"
+			},
+			"searched_customer": {
+				"type": "xpath",
+				"value": "//tr[@pagination-id='paginatePersonList']"
+			}
+		},
+		"business_geo_master": {
+			"geo_type": {
+				"type": "id",
+				"value": "selcountry"
+			},
+			"downloadData": {
+				"type": "id",
+				"value": "btnDownloadData"
+			},
+			"addFile": {
+				"type": "id",
+				"value": "base-input"
+			},
+			"checkData": {
+				"type": "id",
+				"value": "btnCheckData"
+			},
+			"Data_Saved_successfully": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']"
+			},
+			"successMessage": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']/p"
+			},
+			"success_OK": {
+				"type": "xpath",
+				"value": "//button[@class='confirm']"
+			},
+			"cancel_btn": {
+				"type": "xpath",
+				"value": "//button[@value='Cancel']"
+			}
+		},
+		"article_master": {
+			"entry_tab": {
+				"type": "xpath",
+				"value": "//a[text()='Entry']"
+			},
+			"view_tab": {
+				"type": "xpath",
+				"value": "//a[text()='View']"
+			},
+			"commodity": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mPBGGlCode']"
+			},
+			"variety": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mPRDGlCode']"
+			},
+			"article_code": {
+				"type": "id",
+				"value": "txtArticlCode"
+			},
+			"article_name": {
+				"type": "id",
+				"value": "txtArticlName"
+			},
+			"material_packaging": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mMaterialPackagingCode']"
+			},
+			"shelf_life": {
+				"type": "xpath",
+				"value": "//input[@ng-model='mSelfLife']"
+			},
+			"uom": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mUOMCode']"
+			},
+			"article_weight": {
+				"type": "id",
+				"value": "txtArticleWeight"
+			},
+			"pack_type": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mPackType']"
+			},
+			"product_type": {
+				"type": "xpath",
+				"value": "//select[@ng-model='mProductType']"
+			},
+			"inner_boxes": {
+				"type": "id",
+				"value": "txtInnerBoxsPerOuter"
+			},
+			"save_button": {
+				"type": "id",
+				"value": "btnSave"
+			},
+			"Data_Saved_successfully": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']"
+			},
+			"successMessage": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']/p"
+			},
+			"success_OK": {
+				"type": "xpath",
+				"value": "//button[@class='confirm']"
+			},
+			"sku_addQnt": {
+				"type": "id",
+				"value": "txtNetQtyNumber"
+			},
+			"sku_save": {
+				"type": "xpath",
+				"value": "//div[@id='tab_SKU']//input[@name='Save']"
+			},
+			"execute_btn": {
+				"type": "xpath",
+				"value": "//button[@title='Execute']"
+			},
+			"loader": {
+				"type": "id",
+				"value": "loaderdiv"
+			},
+			"find_article_code": {
+				"type": "id",
+				"value": "varProduct_SKU_Code"
+			},
+			"searched_list": {
+				"type": "xpath",
+				"value": "//tr[@pagination-id='paginateArticleList']"
+			}
+		},
+		"regular_scheme": {
+			"execute": {
+				"type": "id",
+				"value": "btnExecute"
+			},
+			"t_header": {
+				"type": "xpath",
+				"value": "//table[@id='CreateSchemedata']/thead"
+			},
+			"t_first_row": {
+				"type": "xpath",
+				"value": "//tr[@pagination-id='paginateCreateSchemeList'][1]"
+			},
+			"scheme_name": {
+				"type": "xpath",
+				"value": "(//div[@id='tab_Define']//div[@class='form-group'])[1]//label[2]"
+			},
+			"variety": {
+				"type": "id",
+				"value": "dlPRD"
+			},
+			"article": {
+				"type": "id",
+				"value": "dlArticle"
+			},
+			"point_on_scanning": {
+				"type": "id",
+				"value": "txtPointOnScan"
+			},
+			"save": {
+				"type": "id",
+				"value": "btnDefineSave"
+			},
+			"Data_Saved_successfully": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']"
+			},
+			"delete_alert": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert visible showSweetAlert']"
+			},
+			"delete_success": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert visible showSweetAlert']/p"
+			},
+			"successMessage": {
+				"type": "xpath",
+				"value": "//div[@class='sweet-alert showSweetAlert visible']/p"
+			},
+			"success_OK": {
+				"type": "xpath",
+				"value": "//button[@class='confirm']"
+			},
+			"delete_btn": {
+				"type": "xpath",
+				"value": "//td[@ng-click='DeleteDefineschemedetails(m)']/i"
+			},
+			"confirm_del": {
+				"type": "xpath",
+				"value": "//button[@class='confirm']"
+			}
+		}
+	},
+	"mobile": {}
+}
